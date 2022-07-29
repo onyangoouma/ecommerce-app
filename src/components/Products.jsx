@@ -52,9 +52,8 @@ const Products = () => {
             <>
                 <div className="buttons">
                    
-                    <button className='btn' type='submit' onClick={() => filterProduct("men's clothing")}>Men's clothing</button>
-                    <button className='btn' type='submit' onClick={() => filterProduct("women's clothing")}>Wen's clothing</button>
-                   
+                <button className='btn' type='submit' onClick={() => filterProduct("men's clothing")}>Men's clothing</button>
+                    <button className='btn' type='submit' onClick={() => filterProduct("women's clothing")}>Wen's clothing</button>g                   
                 </div>
                 <div className="cards">
                         {filter.map((product) => {
