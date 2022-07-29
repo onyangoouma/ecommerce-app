@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux';
 
 const Header = () => {
 
-    const state = useSelector((state) => state.HandleCart);
+  
 
   return (
     <div className='header'>
