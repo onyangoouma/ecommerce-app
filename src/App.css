@@ -6,7 +6,7 @@
     align-items: center;
     padding: 0 25px;
     height: 120px;
-    background-color: #001e28;
+    background-color: teal;
 }
 
 .header .middle .col a img {
@@ -102,6 +102,11 @@
     padding: 5px;
     gap: 1rem;
 
+
+}
+h4{
+    background-color: darkcyan;
+    font-size: large;
 
 }
 

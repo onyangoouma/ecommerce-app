@@ -51,7 +51,7 @@ const Product = () => {
                     <span>{product.category}</span>
                     <p>Rating {product.rating && product.rating.rate} <FontAwesomeIcon icon={faStar} /></p>
                     <p>{product.description}</p>
-                    <h1>ksh {product.price}</h1>
+                    <h1>${product.price}</h1>
                     <button className='add' onClick={() => addProduct(product)}><FontAwesomeIcon icon={faShoppingCart} /> Add to Cart</button>
                 </div>
             </>
