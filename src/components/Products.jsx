@@ -49,37 +49,7 @@ const Products = () => {
 
     const ShowProducts = () => {
         return (
-            <>
-                <div className="buttons">
-                   
-                <button className='btn' type='submit' onClick={() => filterProduct("men's clothing")}>Men's clothing</button>
-                    <button className='btn' type='submit' onClick={() => filterProduct("women's clothing")}>Wen's clothing</button>g                   
-                </div>
-                <div className="cards">
-                        {filter.map((product) => {
-                            return(
-                                <>
-                                    <div className="card" key={product.id}>
-                                        <div className="card-header">
-                                            <img src={product.image} alt={product.title} />
-                                        </div>
-                                        <div className="card-body">
-                                            <h3 className="title">{product.title.substring(0, 10)}...</h3>
-                                            <div className="other">
-                                                <span>Rate: {product.rating.rate}</span>
-                                                <span>${product.price}</span>
-                                            </div>
-                                        </div>
-                                        <div className="card-footer">
-                                            <Link to={`/products/${product.id}`} className='addToCart'>Add to Cart</Link>
-                                        </div>
-                                    </div>
-                                </>
-                            )
-                        })}
-
-                </div>   
-            </>
+            
         )
     }
 
