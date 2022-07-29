@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="col">
                    
                     <div className="content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque saepe sunt sed eius reiciendis similique ullam animi in, quasi ipsum maiores, necessitatibus dignissimos id quaerat facere architecto at, molestias harum!</p>
+                        <p>elite clothline handles both women and men  fashions. Visit our shop at Imenti house via +254713510036 </p>
                     </div>
                 </div>
                 <div className="col">
@@ -46,7 +46,7 @@ const Footer = () => {
                 <div className="col">
                     <hr />
                     <div className="copyRights">
-                        <p className="copy">&copy; 2022. All Rights Reserved. Powered by Miljan Peric. </p>
+                        <p className="copy">&copy; 2022. All Rights Reserved.  </p>
                     </div>
                 </div>
             </div>

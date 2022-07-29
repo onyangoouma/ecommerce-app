@@ -1,26 +1,4 @@
 /* Header Start */
-.header .top {
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 25px;
-}
-
-.header .top .col {
-    display: flex;
-}
-
-.header .top .col .topDiv {
-    margin-right: 15px;
-}
-
-.header .top .col span {
-    margin-left: 5px;
-}
-
-.header .top .col svg {
-    margin-left: 15px;
-    font-size: 16px;
-}
 
 .header .middle {
     display: flex;
@@ -108,27 +86,24 @@
 .home .hero {
     width: 100vw;
     overflow: hidden;
-    background-color: black;
+    background-color: gray;
     margin-top: 1rem;
 }
 
 .home .hero img {
-    width: 700px;
-    height:700px;
+    width: 600px;
+    height:600px;
     overflow: hidden;
     float: left;
     /* margin-right: 40px; */
-    margin-left: 1px;
+    margin-left: 0.5px;
     border: 2px solid teal;
 
-    padding: 10px;
+    padding: 5px;
     gap: 1rem;
 
 
 }
-
-    
-
 
 .home .hero .col {
     position: relative;
@@ -143,14 +118,15 @@
 }
 
 .home .hero .col .content .title {
-    color: #ffffff;
+    color: orange;
     font-size: 60px;
     text-transform: uppercase;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .home .hero .col .content .subtitle {
-    color: #ffffff;
+    color: blue;
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -219,11 +195,11 @@
 
 .products .buttons .btn:hover {
     background-color: #001e28;
-    color: #ffffff;
+    color: green;
 }
 
 .products .buttons .btn:active {
-    transform: translateY(10px);
+    transform: translateY(30px);
 }
 
 .products .cards {
@@ -385,7 +361,7 @@
 
 .footer .copyRights {
     padding: 10px 0;
-    font-size: 12px;
+    font-size: 22px;
 }
 
 @media screen and (max-width: 768px) {

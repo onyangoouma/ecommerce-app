@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faPhone, faShoppingCart, faSignIn, faUserPlus } from '@fortawesome/free-solid-svg-icons'
-import { faFacebook, faInstagramSquare, faTwitterSquare } from '@fortawesome/free-brands-svg-icons' 
+import {  faShoppingCart,} from '@fortawesome/free-solid-svg-icons'
+
 import {Link} from "react-router-dom";
 import { useSelector } from 'react-redux';
 
@@ -14,21 +14,10 @@ const Header = () => {
       <div className="container">
           <div className="top row">
               <div className="col">
-                  <div className="topDiv">
-                       
+                  <div className="topDiv">     
                         
                   </div>
-                  <div className="topDiv">
-                        <FontAwesomeIcon icon={faEnvelope} />
-                        <span>ricpewebcode@gmail.com</span>
-                  </div>
-              </div>
-              <div className="col">
-                <div className="topDiv">
-                        <Link to="/"><FontAwesomeIcon icon={faFacebook} /></Link>
-                        <Link to="/"><FontAwesomeIcon icon={faInstagramSquare} /></Link>
-                        <Link to="/"><FontAwesomeIcon icon={faTwitterSquare} /></Link>
-                </div>
+                 
               </div>
           </div>
           <div className="middle row">
@@ -55,8 +44,8 @@ const Header = () => {
               </div>
               <div className="col">
                     <div className="buttons">
-                        <Link to="/login"><FontAwesomeIcon icon={faSignIn} /> Login</Link>
-                        <Link to="/register"><FontAwesomeIcon icon={faUserPlus} /> Register</Link>
+                        
+                        
                         <Link to="/cart"><FontAwesomeIcon icon={faShoppingCart} /> Cart({state.length})</Link>
                     </div>
               </div>

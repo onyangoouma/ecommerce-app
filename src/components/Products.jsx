@@ -68,7 +68,7 @@ const Products = () => {
                                             <h3 className="title">{product.title.substring(0, 10)}...</h3>
                                             <div className="other">
                                                 <span>Rate: {product.rating.rate}</span>
-                                                <span>Ksh {product.price}</span>
+                                                <span>${product.price}</span>
                                             </div>
                                         </div>
                                         <div className="card-footer">
