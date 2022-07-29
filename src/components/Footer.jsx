@@ -10,7 +10,26 @@ const Footer = () => {
             <div className="row">
                 <div className="col">
                    
-                    
+                    <div className="content">
+                        <p>elite clothline handles both women and men  fashions. Visit our shop at Imenti house via +254713510036 </p>
+                    </div>
+                </div>
+                <div className="col">
+                    <h3>Quick Links</h3>
+                    <div className="nav">
+                        <ul>
+                            <li>
+                                <Link to="/">Home</Link>
+                            </li>
+                            <li>
+                                <Link to="/products">Products</Link>
+                            </li>
+                            <li>
+                                <Link to="/about">About</Link>
+                            </li>
+                            <li>
+                                <Link to="/contact">Contact</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
