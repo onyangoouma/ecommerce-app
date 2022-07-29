@@ -13,7 +13,22 @@ const Cart = () => {
   }
 
   const cartItems = (cartItem) => {
-  
+    return (
+      <div className="col" key={cartItem.id}>
+        <div className="topCol">
+          <button onClick={() => handleDelete(cartItem)}>X</button>
+        </div>
+        <div className="middleCol">
+          <div className="left">
+            <img src={cartItem.image} alt={cartItem.title} />
+          </div>
+          <div className="right">
+            <h3>{cartItem.title}</h3>
+            <span>${cartItem.price}</span>
+          </div>
+        </div>
+      </div>
+    );
   }
 
   const emptyCart = () => {
